@@ -1,2 +1,33 @@
+[project]
+name = ""
+version = "0.0.1"
+dependencies = [
+    "datasets",
+    "base58",
+    "nltk",
+    "numpy",
+    "langid",
+    "openai",
+    "peft",
+    "pyyaml",
+    "rank-bm25",
+    "rouge",
+    "spacy",
+    "tiktoken",
+    "torch",
+    "tqdm",
+    "transformers>=4.40.0",
+    "bm25s[core]==0.2.1",
+    "fschat",
+    "streamlit",
+    "chonkie>=1.0.2",
+    "gradio>=5.0.0",
+    "rouge-chinese",
+    "jieba",
+]
+
 [tool.ruff.lint]
 extend-select = ["W291", "W293"]
+
+[tool.uv]
+package = false
